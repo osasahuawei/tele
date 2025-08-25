@@ -12,7 +12,7 @@ import io
 
 init(autoreset=True)
 
-bot = telebot.TeleBot("YOUR_TOKEN_HERE")  # Replace with your Telegram bot token
+bot = telebot.TeleBot("8330939461:AAEUaMYi3UI_sx1pkrSqXT--Hgfzo21zHUg")  # Replace with your Telegram bot token
 
 stop_event = threading.Event()
 script_thread = None
