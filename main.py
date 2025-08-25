@@ -4,7 +4,7 @@ import threading
 import itertools
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
-
+from colorama import Fore, init
 # ============= GLOBALS =============
 quota_cycle = itertools.cycle(["10", "40"])
 script_thread = None
